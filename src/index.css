@@ -1,0 +1,49 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.cityCelector {
+  margin-bottom: 20px;
+}
+
+.cityCelector label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.cityCelector select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.cityCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.cityCard.empty {
+  color: #888;
+  font-style: italic;
+}
+
+.cityCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 12px 0;
+}
+
+.cityCard p {
+  margin: 0 0 16px;
+}
+
+.cityCard ul {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 20px;
+}

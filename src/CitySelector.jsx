@@ -5,7 +5,7 @@ function CitySelector({ cities, selectedCityName, onCityChange }) {
       <select
         id="citySelect"
         value={selectedCityName}
-        onChenge={(event) => onCityChange(event.target.value)}
+        onChange={(event) => onCityChange(event.target.value)}
       >
         <option value="">--Выберите город--</option>
         {cities.map((city) => (

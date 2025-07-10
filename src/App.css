@@ -2,6 +2,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: bisque;
   font-family: sans-serif;
 }
 
@@ -20,10 +21,12 @@
 }
 
 .cityCard {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 2px solid #026119;
+  border-radius: 20px;
+  background-color: darkseagreen;
   padding: 16px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .cityCard.empty {
